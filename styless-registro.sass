@@ -37,6 +37,7 @@ body
 
       &:hover
         background-color: variables.$verde
+        transform: scale(1.2)
 
   & .atras
     display: flex
@@ -45,6 +46,12 @@ body
     width: 100%
     justify-content: center
     color: variables.$verde
+    // @include variables.etiqueta
 
+    &:hover
+      text-decoration: underline
+
+  & .olvido
+    @include variables.etiqueta
     &:hover
       text-decoration: underline

@@ -35,6 +35,7 @@ body form button {
 }
 body form button:hover {
   background-color: rgb(76, 175, 80);
+  transform: scale(1.2);
 }
 body .atras {
   display: flex;
@@ -45,5 +46,16 @@ body .atras {
   color: rgb(76, 175, 80);
 }
 body .atras:hover {
+  text-decoration: underline;
+}
+body .olvido {
+  display: flex;
+  text-decoration: none;
+  margin-top: 15px;
+  width: 100%;
+  justify-content: center;
+  color: rgb(76, 175, 80);
+}
+body .olvido:hover {
   text-decoration: underline;
 }/*# sourceMappingURL=styless-registro.css.map */
